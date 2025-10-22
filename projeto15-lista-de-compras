@@ -8,3 +8,32 @@ O objetivo é praticar o uso de métodos essenciais de Arrays (como push(), map(
 
 Para rodar estas funções, basta copiá-las e executá-las em um ambiente JavaScript (como o console do navegador ou usando Node.js).
 
+////////////////////////////////////////////////
+
+function adicionarItem(itens, item) {
+  itens.push(item)
+  return itens
+}
+
+function exportarMinusculasCSV(itens) {
+  const itensMinusculos = itens.map(function (item) {
+    return String(item).toLowerCase();
+  });
+  let csv = itensMinusculos.join(", ");
+
+  return csv;
+}
+
+////////////////////////////////////////////////
+
+// Exemplo de uso
+let minhaLista = ["PÃO", "Leite", "QUEIJO"];
+
+// Adicionar um item
+adicionarItem(minhaLista, "café"); 
+// minhaLista agora é: ["PÃO", "Leite", "QUEIJO", "café"]
+
+// Exportar como CSV em minúsculas
+let csvFinal = exportarMinusculasCSV(minhaLista);
+console.log(csvFinal); 
+// Saída: "pão, leite, queijo, café"
