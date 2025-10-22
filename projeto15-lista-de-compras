@@ -1,0 +1,10 @@
+🛒 Projeto 15: Lista de Compras Simples (JavaScript)
+
+Este repositório contém funções JavaScript para gerenciar e manipular itens de uma lista de compras.
+
+O objetivo é praticar o uso de métodos essenciais de Arrays (como push(), map(), e join()) para manipulação de dados.
+
+🛠️ Como Executar
+
+Para rodar estas funções, basta copiá-las e executá-las em um ambiente JavaScript (como o console do navegador ou usando Node.js).
+
